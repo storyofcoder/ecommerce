@@ -1,0 +1,32 @@
+.product_listing_sort_by{
+    margin-right: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    /* font-weight: 600; */
+
+}
+.product_listing_count_title{
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 8px;
+    display: inline-block;
+}
+.product_listing_count_value{
+    display: inline-block;
+    margin-left: 10px;
+    color: rgb(135, 135, 135);
+    font-size: 12px;
+}
+.sort_by_active{
+    color: rgb(40, 116, 240);
+    cursor: default;
+    border-bottom: 2px solid rgb(40, 116, 240);
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+.f_w_500{
+    font-weight: 500 !important;
+}
+.f_w_600{
+    font-weight: 600 !important;
+}

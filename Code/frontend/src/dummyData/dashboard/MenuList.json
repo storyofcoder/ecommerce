@@ -1,0 +1,94 @@
+{
+    "data": [
+        {
+            "category": {
+                "icon_image_url": "https://cdn.grofers.com/app/images/category/cms_images/icon/916_1615986665983.png",
+                "name": "Atta & Other Flours"
+            },
+            "display_name": "Atta in Atta & Other Flours",
+            "type": 1,
+            "keyword": "Atta"
+        },
+        {
+            "category": {
+                "icon_image_url": "https://cdn.grofers.com/app/images/category/cms_images/icon/935_1564721011431.png",
+                "name": "Biscuits & Cookies"
+            },
+            "display_name": "Biscuit in Biscuits & Cookies",
+            "type": 1,
+            "keyword": "Biscuit"
+        },
+        {
+            "category": {
+                "icon_image_url": "https://cdn.grofers.com/app/images/category/cms_images/icon/933_1615986609537.png",
+                "name": "Salt & Sugar"
+            },
+            "display_name": "Salt in Salt & Sugar",
+            "type": 1,
+            "keyword": "Salt"
+        },
+        {
+            "category": {
+                "icon_image_url": "https://cdn.grofers.com/app/images/category/cms_images/icon/1137_1564721815535.png",
+                "name": "Noodles & Vermicelli"
+            },
+            "display_name": "Noodles in Noodles & Vermicelli",
+            "type": 1,
+            "keyword": "Noodles"
+        },
+        {
+            "category": {
+                "icon_image_url": "https://cdn.grofers.com/app/images/category/cms_images/icon/917_1602132216319.png",
+                "name": "Edible Oils"
+            },
+            "display_name": "Mustard Oil in Edible Oils",
+            "type": 1,
+            "keyword": "Mustard Oil"
+        },
+        {
+            "category": {
+                "icon_image_url": "https://cdn.grofers.com/app/images/category/cms_images/icon/983_1592314521696.png",
+                "name": "Laundry Detergents"
+            },
+            "display_name": "Detergent Powder in Laundry Detergents",
+            "type": 1,
+            "keyword": "Detergent Powder"
+        },
+        {
+            "category": {
+                "icon_image_url": "https://cdn.grofers.com/app/images/category/cms_images/icon/942_1564721059168.png",
+                "name": "Namkeen & Snacks"
+            },
+            "display_name": "Namkeen in Namkeen & Snacks",
+            "type": 1,
+            "keyword": "Namkeen"
+        },
+        {
+            "category": {
+                "icon_image_url": "https://cdn.grofers.com/app/images/category/cms_images/icon/957_1564720106690.png",
+                "name": "Tea & Coffee"
+            },
+            "display_name": "Tea in Tea & Coffee",
+            "type": 1,
+            "keyword": "Tea"
+        },
+        {
+            "category": {
+                "icon_image_url": "https://cdn.grofers.com/app/images/category/cms_images/icon/933_1615986609537.png",
+                "name": "Salt & Sugar"
+            },
+            "display_name": "Sugar in Salt & Sugar",
+            "type": 1,
+            "keyword": "Sugar"
+        },
+        {
+            "category": {
+                "icon_image_url": "https://cdn.grofers.com/app/images/category/cms_images/icon/917_1602132216319.png",
+                "name": "Edible Oils"
+            },
+            "display_name": "Soyabean Oil in Edible Oils",
+            "type": 1,
+            "keyword": "Soyabean Oil"
+        }
+    ]
+}

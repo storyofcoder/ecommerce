@@ -1,0 +1,94 @@
+{
+    "data": [
+        {
+            "category": {
+                "icon_image_url": "https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPDEZANO-COTTODEZA1154908AF6FA69A/1601554546537_0..jpg?imwidth=282&impolicy=hq",
+                "type": "l1",
+                "id": 916,
+                "name": "Men"
+            },
+            "banner":{
+                "image": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2021/5/23/4e73926d-34bd-49be-a778-b43c24cc5b941621783509411-Skechers_Desktop_Banner.jpg",
+                "title": "Kingsman"
+            },
+            "display_name": "Kingsman",
+            "type": 1,
+            "keyword": "gentleman"
+        },
+        {
+            "category": {
+                "icon_image_url": "https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPEYEBOGLER-COSEVE88413F32E363/1601890054864_0..jpg?imwidth=280&impolicy=hq",
+                "type": "l1",
+                "id": 935,
+                "name": "Boy"
+            },
+            "banner":{
+                "image": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2021/5/23/c6a008db-deb5-453f-8e2f-a917cd91faef1621783049785-M-H_Desk_Banner--1-.jpg",
+                "title": "Men's Collection"
+            },
+            "display_name": "Men's",
+            "type": 1,
+            "keyword": "Men's"
+        },
+        {
+            "category": {
+                "icon_image_url": "https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPNEW-DESIGNERRAJE87294A2BFD39E/1562906303432_0..jpg?imwidth=282&impolicy=hq",
+                "type": "l1",
+                "id": 933,
+                "name": "Women"
+            },
+            "banner":{
+                "image": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2021/5/23/877151fc-7a10-4983-9ad6-bed19486cef51621783509462-Sarees_Desk_Banner.jpg",
+                "title": "Time To Change"
+            },
+            "display_name": "Time To Change",
+            "type": 1,
+            "keyword": "Women"
+        },
+        {
+            "category": {
+                "icon_image_url": "https://rukminim1.flixcart.com/image/660/792/ja1dt3k0/coat/p/v/n/xxl-bfjt-4342-belle-fille-original-imaezpe3tq9cgn4q.jpeg",
+                "type": "l1",
+                "id": 1137,
+                "name": "Girl"
+            },
+            "banner":{
+                "image": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2021/5/23/ab1f5965-aeb6-4dab-8bb1-48fd1235a1d11621783509490-DK_WeddingEdit.jpg",
+                "title": "Queen's Collection"
+            },
+            "display_name": "Queen's Collection",
+            "type": 1,
+            "keyword": "Girls"
+        },
+        {
+            "category": {
+                "icon_image_url": "https://assetscdn1.paytm.com/images/catalog/product/K/KI/KIDAARIKA-GIRL-KASH322821FF957C2/1609842626535_0..jpg?imwidth=282&impolicy=hq",
+                "type": "l1",
+                "id": 917,
+                "name": "Baby"
+            },
+            "banner":{
+                "image": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2021/3/10/f66accad-df35-46a8-984c-4eabf1d7a3a61615355502789-SS21-DesktopMainLaunch-KidsPageBanner.jpg",
+                "title": "Cutie Pie"
+            },
+            "display_name": "Cutie Pie",
+            "type": 1,
+            "keyword": "Baby"
+        },
+        {
+            "category": {
+                "icon_image_url": "https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPRIDER-COMPREA-P-944841BF234857/1562930892858_0..jpg?imwidth=282&impolicy=hq",
+                "type": "l1",
+                "id": 983,
+                "name": "Sports"
+            },
+            "banner":{
+                "image": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2021/5/23/d68939c8-58bc-438a-a807-18c06bd084dc1621784663460-Tights---Trackpants_Desk_Banner.jpg",
+                "title": "Fitness"
+            },
+            "display_name": "Fitness",
+            "type": 1,
+            "keyword": "Sportswear tight"
+        }
+    ]
+}

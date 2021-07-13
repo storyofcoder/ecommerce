@@ -1,0 +1,9 @@
+.yours-custom-class{
+    width:800px
+}
+
+.item  {
+    display: block;
+    width: 100%;
+    height: 300px;
+}

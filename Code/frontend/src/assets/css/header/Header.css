@@ -1,0 +1,319 @@
+.main_header {
+  position: fixed;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  will-change: transform;
+  width: 100%;
+  height: 56px;
+  background-color: #230c0f !important;
+  color: #f0f0f0;
+  z-index: 10;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin: 0;
+  padding-top: 8px;
+}
+.search_input {
+  padding: 0 16px;
+  border-radius: 2px 0 0 2px;
+  border: 0;
+  outline: 0 none;
+  font-size: 14px;
+  height: 36px;
+  width: 100%;
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  font: 400 13.3333px Arial;
+}
+.header_login_btn {
+  color: white;
+  font-weight: 500;
+  background-color: #ff9f00;
+  cursor: pointer;
+  border-radius: 2px;
+  height: 37px;
+  padding: 0px 40px;
+  border: 1px solid #ff9f00;
+}
+
+.header_other_btn {
+  color: white;
+  font-weight: 500;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 2px;
+  height: 37px;
+  padding: 0px 20px;
+  border: 1px solid transparent;
+}
+
+/* input search bar */
+.header_search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border-right: none;
+  outline: none;
+
+  padding: 0 16px;
+  font-size: 19px;
+}
+
+.searchTerm:focus {
+  /* color: #ff9f00; */
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #ff9f00;
+  background: #ff9f00;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* heart */
+.heart {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  top: -27px;
+  left: 42px;
+  background: url(https://cssanimation.rocks/images/posts/steps/heart.png)
+    no-repeat;
+  zoom: 60%;
+  background-position: 0 0;
+  cursor: pointer;
+}
+.heart_active {
+  background-position: -2800px 0;
+  transition: background 1s steps(28);
+  animation: fave-heart 1s steps(28);
+}
+@keyframes fave-heart {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -2800px 0;
+  }
+}
+
+/* header */
+
+nav .drop-btn {
+  /* background: #230c0f;
+  border-radius: 5px;
+  line-height: 55px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #b0b3b8;
+  padding: 0 20px; */
+}
+nav .drop-btn span {
+  line-height: 35px;
+  /* float: right;
+  line-height: 50px;
+  font-size: 28px;
+  cursor: pointer; */
+}
+nav .tooltip {
+  position: relative;
+  left: 30px;
+  bottom: -20px;
+  height: 15px;
+  width: 15px;
+  background: #230c0f;
+  transform: rotate(45deg);
+  display: none;
+}
+nav .tooltip.show {
+  display: block;
+}
+nav .wrapper {
+  position: absolute;
+  top: 48px;
+  display: flex;
+  width: 400px;
+  overflow: hidden;
+  border-radius: 5px;
+  background: white;
+  display: none;
+  transition: all 0.3s ease;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 31%);
+}
+nav .wrapper.show {
+  display: block;
+  display: flex;
+}
+.wrapper ul {
+  width: 400px;
+  list-style: none;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+.wrapper ul li {
+  line-height: 55px;
+  border-top: 1px solid #f2f2f2;
+}
+.wrapper ul li:first-child {
+  border-top: none;
+}
+.wrapper ul li div {
+  position: relative;
+  color: grey;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 0 10px;
+  display: flex;
+  border-radius: 8px;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.wrapper ul li:hover div {
+  background: #f7f7f7;
+  /* opacity: 0.7; */
+  /* filter: blur(8px); */
+}
+ul li div .icon {
+  height: 40px;
+  width: 40px;
+  margin-right: 13px;
+  background: #ffffff1a;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+}
+ul li div .icon span {
+  line-height: 40px;
+  font-size: 18px;
+  color: #b0b3b8;
+}
+ul li div i {
+  position: absolute;
+  right: 10px;
+  font-size: 25px;
+  pointer-events: none;
+}
+.wrapper ul.setting-drop,
+.wrapper ul.help-drop {
+  display: none;
+}
+.wrapper .arrow {
+  padding-left: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #b0b3b8;
+  cursor: pointer;
+}
+.wrapper .arrow span {
+  margin-right: 15px;
+}
+.header_suggestion {
+  width: 100%;
+  background: white;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 15%);
+  margin-top: 1px;
+}
+.search_row {
+  color: black;
+  padding: 10px 10px;
+  font-weight: 500;
+  cursor: pointer;
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+  margin: 0;
+  height: 58px;
+}
+.dashboard_menu_list_card {
+  cursor: pointer;
+}
+.main_header_logo {
+  cursor: pointer;
+}
+.main_header_logo_text {
+  font-size: 21px;
+  font-weight: 700;
+  color: #ff9f00;
+  position: relative;
+  top: 2px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.icon-button__badge {
+  position: absolute;
+  top: -5px;
+  right: 16px;
+  width: 23px;
+  height: 23px;
+  background: red;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 12px;
+}
+@media only screen and (max-width: 800px) {
+  .main_header {
+    padding: 0;
+    width: 100%;
+  }
+  .navbar-collapse {
+    border-bottom: 1px solid lightgrey;
+    background: white;
+    padding: 10px 10px;
+    margin-top: 15px;
+  }
+  .header_search {
+    border: 1px solid #ff9f00;
+    border-radius: 3px;
+  }
+  .nav-item div {
+    position: relative;
+    color: grey;
+    font-size: 17px;
+    font-weight: 500;
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .cartWrap li {
+    display: table-caption !important;
+  }
+  .cart .items .cartSection .itemImg {
+    margin-left: 25% !important;
+  }
+  .p_add_wishlist{
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,24 @@
+@import "./dashboard/MenuList.css";
+@import "./common/Index.css";
+
+/* include main header */
+@import "./header/Header.css";
+
+/* include footer */
+@import "./footer/Footer.css";
+
+@import "./productCard/productDard.css";
+
+@import "./login/Login.css";
+
+@import "./productListing/ProductListing.css";
+
+@import "./productDescription/ProductDescription.css";
+
+@import "./wishlist/Wishlist.css";
+
+@import "./cart/Cart.css";
+
+@import "./orderDetails/OrderDetails.css";
+
+@import "./loader/PageLoader.css";

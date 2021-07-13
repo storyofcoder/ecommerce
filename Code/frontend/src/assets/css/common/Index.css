@@ -1,0 +1,7 @@
+.main_container{
+    /* padding: 0 5%; */
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+@import "./Slider.css"
