@@ -41,6 +41,11 @@ export async function addAddress(data) {
   return response;
 }
 
+export async function updateAddress(data) {
+  const response = await API.post("/user/update-address", data).then(res => res);
+  return response;
+}
+
 export async function createOrder(data) {
   const response = await API.post("/user/create-order", data).then(res => res);
   return response;

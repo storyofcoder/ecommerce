@@ -322,6 +322,10 @@ img {
   color: #6f6f6f;
   font-family: helvetica, arial, sans-serif;
 }
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
 
 a.remove {
   text-decoration: none;
@@ -1168,6 +1172,28 @@ a.remove:hover {
 }
 .retry_btn:focus {
   outline: 2px dotted rgb(85, 204, 85);
+}
+
+.rotate{
+  animation: rotate 1.5s linear infinite; 
+}
+@keyframes rotate{
+  to{ transform: rotate(360deg); }
+}
+.circle_loader {
+  height: 20px;
+    width: 20px;
+    border: 2px solid #ff9f00;
+    border-left: none;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.f_right{
+  float: right !important;
+}
+.f_left{
+  float: left !important;
 }
 @media only screen and (max-width: 1200px) {
   .subtotal {
