@@ -103,3 +103,8 @@ export async function searchProduct(query) {
   const response = await API.get(`/public/search?query=${query}`).then(res => res);
   return response;
 }
+
+export async function subscribe(query) {
+  const response = await API.get(`/public/subscribe?email=${query}`).then(res => res);
+  return response;
+}

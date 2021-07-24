@@ -3,10 +3,35 @@ import { connect } from "react-redux";
 import { compose } from "redux";
 import { withAlert } from "react-alert";
 // import { getItemsList} from "../redux/home/Action";
+import { subscribe } from "../../apis/get/Index";
 
-function Footer() {
+function Footer(props) {
 
-    const [value, setValue] = useState('')
+    const [value, setValue] = useState('');
+
+    const subscribed = () => {
+        let _value = value;
+        var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+        if (!emailPattern.test(_value)) {
+            props.alert.show('Please enter a valid email.', {
+                timeout: 5000,
+                type: "error"
+            })
+            return;
+        }
+        setValue('');
+        subscribe(_value).then(data => {
+            props.alert.show("Successfully Subscribed", {
+                timeout: 5000,
+                type: "success"
+            })
+        }).catch(error => {
+            props.alert.show(error?.response?.data?.message, {
+                timeout: 5000,
+                type: "error"
+            })
+        })
+    }
 
     return <>
         <footer className="footer-section mt-5">
@@ -51,7 +76,7 @@ function Footer() {
                                 </div>
                                 <div className="footer-text">
                                     <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
-                                elit,Lorem ipsum dolor sit amet.</p>
+                                        elit,Lorem ipsum dolor sit amet.</p>
                                 </div>
                                 <div className="footer-social-icon">
                                     <span>Follow us</span>
@@ -90,7 +115,7 @@ function Footer() {
                                 </div>
                                 <div className="subscribe-form">
                                     <input value={value} type="text" placeholder="Email Address" onChange={(e) => { setValue(e.target.value) }} />
-                                    <button onClick={() => { setValue('') }}><i className="fab fa-telegram-plane"></i></button>
+                                    <button onClick={() => { subscribed() }}><i className="fab fa-telegram-plane"></i></button>
                                 </div>
                             </div>
                         </div>
