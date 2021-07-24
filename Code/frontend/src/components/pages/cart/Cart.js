@@ -43,12 +43,12 @@ function Cart(props) {
         if (page == 'Confirm') {
             setPage('Payment');
         } else if (page == 'Payment') {
-            if(!address){
+            if (!address) {
                 props.alert.show('Address is required*', {
                     timeout: 5000,
                     type: "error"
                 });
-                return; 
+                return;
             }
             razorPayPaymentHandler();
         }
@@ -137,7 +137,7 @@ function Cart(props) {
                     </ul>
                 </div>
                 <div className="row">
-                    {props.cartLoading ?
+                    {props.cartLoading && Object.values(props.cartList).length === 0 ?
                         <>
                             <div className="col-xl-8 col-md-8 col-sm-12 mt-5">
                                 <div className="order_wrapper">
