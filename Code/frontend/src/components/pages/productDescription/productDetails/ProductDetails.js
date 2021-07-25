@@ -160,7 +160,7 @@ function ProductDetails(props) {
                                 })
                             }
                         </div>
-                        <div className="col-10 text-center" style={{ height: '500px' }}>
+                        <div className="col-10" style={{ height: '500px' }}>
                             <ImageMagnify image={magnifyImage} />
                         </div>
                     </div>

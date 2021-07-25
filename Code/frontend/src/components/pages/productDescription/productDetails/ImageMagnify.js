@@ -27,7 +27,7 @@ function ImageMagnify(props) {
     };
 
     return <>
-        <div className="product_image_magnify">
+        <div className="product_image_magnify text-center">
             <ReactImageMagnify {...imageProps} />
 
         </div>
